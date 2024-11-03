@@ -1,0 +1,2 @@
+Prefix plugins/PlotSD/example/
+Plugin PlotSD inputfile filtered.rds outputfile SD.pdf
