@@ -17,6 +17,6 @@ output <- function(outputfile) {
 pdf(outputfile)
 ## ----sd-----------------------------------------------------------------------
 plotSD(myDat,ylim=c(0,1.4))
-
-
+#print(str(myDat))
+write.csv(myDat@quantData$rsem, paste(outputfile, "csv", sep="."))
 }
